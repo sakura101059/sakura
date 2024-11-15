@@ -1,0 +1,321 @@
+
+body{
+    background-image:url(image/body\ background.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+/*main menu and nav*/
+.menu{
+      background-image: url(image/menu\ background.png);
+      border-radius: 20px;
+      width: 250px;
+      top: 0;
+      left: 0;
+      padding: 15px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-left: 30px;
+      vertical-align: auto;
+      height: 900px;
+      
+
+    
+}
+.first{
+    background-color: #333;
+    color: aliceblue;
+    font-size: larger;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -5px;
+    border-radius: 50px;
+    font-family: Pixelify Sans;
+    
+}
+.nav{
+    display: block;
+}
+.nav .list button{
+    background-color: #333;
+    color: pink;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+   margin-left: -15px;
+    text-align: center;
+    border-style: none;
+    border-radius: 50px;
+    width: 200px;
+    font-family: Pixelify Sans;
+}
+.nav .list a .active{
+    background-color: pink;
+    color: #333;
+}
+.nav .list button:hover:not(.active){
+    background-color: pink;
+    color: #333;
+}
+.nav .list a{
+    text-decoration: none;
+}
+
+/*resume.html*/
+.content1{
+    background-image: url(image/content\ background.png);
+    background-size: cover;
+    background-position: center;
+    
+    border-radius: 20px;
+    width: 1030px;
+    padding: 20px;
+    margin-left: 350px;
+    margin-top: -960px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    height: 890px; 
+}
+.a{
+    font-family: Pixelify Sans;
+    font-size:35px;
+    background-color: pink;
+    text-align: center;
+    
+    width: 440px;
+    border-radius: 60px;
+    margin-left: 28%;
+    
+}
+.icon{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.information{
+    font-family: Comfortaa;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.name,.sex,.skill{
+    background-color: rgba(0, 0, 0, 0.518);
+    border-radius: 50px;
+    width: 330px;
+    text-align: center;
+    padding: 9px;
+    color: aliceblue;
+}
+.name{
+    margin-left: 5px;
+    margin-top: 20px;
+    
+}
+.sex{
+    margin-left: 33%;
+}
+.skill{
+    margin-left: 65%;
+}
+span{
+    color: rgb(255, 40, 183);
+}
+.contact{
+    background-color: rgba(0, 0, 0, 0.518);
+    border-radius: 50px;
+    width: 360px;
+    text-align: center;
+    padding: 9px;
+    color: aliceblue;
+    margin-top: -15%;
+}
+.contact a{
+    text-decoration: none;
+    color: rgb(255, 0, 166);
+}
+.contact a:hover{
+    text-decoration:underline;
+}
+.sns{
+    background-color: rgba(0, 0, 0, 0.518);
+    border-radius: 50px;
+    width: 360px;
+    padding: 9px;
+    text-align: center;
+    color: aliceblue;
+    margin-top: -55%;
+    margin-left: 63%;
+}
+.sns a{
+    text-decoration: none;
+    color: rgb(255, 0, 166);
+}
+.sns a:hover{
+    text-decoration:underline;
+}
+
+/*1.html*/
+.content2{
+    background-image: url(image/content\ background.png);
+    background-size: cover;
+    background-position: center;
+    
+    border-radius: 20px;
+    width: 1030px;
+    padding: 20px;
+    margin-left: 350px;
+    margin-top: -960px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    height: 890px; 
+}
+.about{
+    font-family: Pixelify Sans;
+    font-size:35px;
+    background-color: pink;
+    text-align: center;
+    border-radius: 60px;
+    width: 440px;
+    margin-left: 28%;
+}
+.subtitle{
+    font-size: 25px;
+    font-family: Pixelify Sans;
+    margin-left: 17%;
+    color: #ffc4db;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 2px rgb(78, 74, 75);
+    
+    
+}
+.box{
+    display: inline-block;
+    font-family: Comfortaa;
+    color: #f4daef;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    width: 70%;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.65);
+    margin-left: 14%;
+}
+
+
+.box2{
+    display: inline-block;
+    font-family: Comfortaa;
+    color: #f4daef;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    width: 70%;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.65);
+    margin-left: 14%;
+}
+.box3{
+    display: inline-block;
+    font-family: Comfortaa;
+    color: #f4daef;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    width: 70%;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.65);
+    margin-left: 14%;
+}
+
+/*2.html*/
+.content3{
+    background-image: url(image/content\ background.png);
+    background-size: cover;
+    background-position: center;
+    
+    border-radius: 20px;
+    width: 1030px;
+    padding: 20px;
+    margin-left: 350px;
+    margin-top: -960px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    height: 890px; 
+}
+
+.contact-form form button{
+    border:none;
+    font-size: 20px;
+    padding:9px 30px ;
+    background-color: #403a3a;
+    border-radius: 25px;
+    font-family: Comfortaa;
+    margin-top:15px;
+    margin-left: 240px;
+}
+.contact-form form button:hover{
+    background-color:rgb(182, 132, 168) ;
+    transition: all 0.5s ease 0s;
+}
+.contact-form form a{
+    text-decoration: none;
+    color: pink;
+}
+
+.contact-form{
+    margin-left: 28%;
+    margin-top: 18%;
+    border: 4px solid rgb(56, 48, 50);
+    padding: 23px;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 103, 186, 0.837);
+    font-family:Comfortaa;
+    
+}
+.contact-form form label span{
+    color: rgb(91, 89, 89);
+}
+
+label{
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+    color: aliceblue;
+    
+}
+input,textarea{
+    width: 80%;
+    padding: 10px;
+    margin-right: 8px;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: Comfortaa;
+    border: 1px solid rgb(239, 193, 201);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+.contact-heading{
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+input:focus,textarea:focus{
+    border: 1px solid rgb(28, 90, 59);
+    outline: none;
+}
